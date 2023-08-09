@@ -33,7 +33,20 @@
 | 시프트 연산자 | a >> n | 오른쪽 시프트 | a의 모든 비트를 n만큼 오른쪽으로 시프트시킨다. |
 | 시프트 연산자 | a << n | 왼쪽 시프트 | a의 모든 비트를 n만큼 왼쪽으로 시프트시킨다.|
 
-![스크린샷 2023-08-09 110226](https://github.com/bckkingkkang/pythonStudy/assets/131218470/db7e6bb3-74c5-4875-b8d1-4fbe1564f065)
+#### 오른쪽 시프트 >> 연산
+* a >> n : 오른쪽으로 n 비트 씩 이동하며 오른쪽 비트는 없어지고 왼쪽은 최상위 비트로 채워진다.
 
+|제목|내용|
+|:------:|:---:|
+|a| 0 1 1 0   0 0 0 1|
+|a >> 1 | 0 0 1 1   0 0 0 0|
+
+<details>
+<summary>2진수 10진수 변환</summary>
+
+<!-- summary 아래 한칸 공백 두어야함 -->
+
+![스크린샷 2023-08-09 110226](https://github.com/bckkingkkang/pythonStudy/assets/131218470/db7e6bb3-74c5-4875-b8d1-4fbe1564f065)
 ![스크린샷 2023-08-09 110334](https://github.com/bckkingkkang/pythonStudy/assets/131218470/cdb2eac9-b5ab-431f-b195-0167678b9dee)
+</details>
 
